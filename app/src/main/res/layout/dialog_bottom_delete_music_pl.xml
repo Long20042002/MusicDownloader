@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_shape_of_bottom_dialog">
+
+    <LinearLayout
+        android:id="@+id/layout_delete_music_pl"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:src="@drawable/ic_delete_pl"
+            android:paddingHorizontal="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"/>
+
+        <TextView
+            android:text="@string/remove_song_from_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_large_style"
+            android:layout_marginStart="11dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

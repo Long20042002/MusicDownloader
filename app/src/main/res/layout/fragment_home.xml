@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050810"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="@+id/rcvTopRating"
+            app:layout_constraintTop_toTopOf="@+id/rcvTopRating"
+            app:layout_constraintEnd_toEndOf="@+id/rcvTopRating"
+            app:layout_constraintStart_toStartOf="@+id/rcvTopRating"/>
+
+        <TextView
+            android:id="@+id/tvMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/music"
+            android:textColor="#01DCC2"
+            android:textSize="14sp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDownloader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/downloader"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+
+            app:layout_constraintLeft_toRightOf="@+id/tvMusic"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/lnSelectRegion"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/custom_shape_of_select_region"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+
+            app:layout_constraintRight_toLeftOf="@id/ivSearch"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_global" />
+
+            <TextView
+                android:id="@+id/tvNameRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Eng"
+
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_extended_region" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_search_home"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager_trending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/lnSelectRegion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvTopRating"
+            android:text="@string/top_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_of_home_fragment"
+
+            app:layout_constraintTop_toBottomOf="@+id/view_pager_trending"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMoreTopRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            style="@style/more_of_home_fragment"
+
+
+            app:layout_constraintTop_toTopOf="@+id/tvTopRating"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTopRating"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvTopRating"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTopRating" />
+
+        <TextView
+            android:id="@+id/tvTopListened"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_listened"
+            style="@style/text_of_home_fragment"
+
+            app:layout_constraintTop_toBottomOf="@+id/rcvTopRating"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMoreTopListened"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            style="@style/more_of_home_fragment"
+
+
+            app:layout_constraintTop_toTopOf="@+id/tvTopListened"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTopListened"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvTopListened"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTopListened" />
+
+        <TextView
+            android:id="@+id/tvTopDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_of_home_fragment"
+            android:text="@string/top_download"
+
+            app:layout_constraintTop_toBottomOf="@id/rcvTopListened"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMoreTopDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            style="@style/more_of_home_fragment"
+
+
+            app:layout_constraintTop_toTopOf="@+id/tvTopDownload"
+            app:layout_constraintBottom_toBottomOf="@+id/tvTopDownload"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvTopDownload"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTopDownload" />
+
+        <TextView
+            android:id="@+id/tvGenres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_of_home_fragment"
+            android:text="@string/genres"
+
+            app:layout_constraintTop_toBottomOf="@id/rcvTopDownload"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMoreGenres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more"
+            style="@style/more_of_home_fragment"
+
+
+            app:layout_constraintTop_toTopOf="@+id/tvGenres"
+            app:layout_constraintBottom_toBottomOf="@+id/tvGenres"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvGenres"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvGenres" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

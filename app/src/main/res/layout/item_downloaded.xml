@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_item_music_download"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#282B32"
+    android:layout_marginTop="11dp"
+    app:cardCornerRadius="9dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivDownloaded"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="11dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/image_item_downloaded" />
+
+        <TextView
+            android:id="@+id/tvNameSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/loren_suppppppp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintVertical_chainStyle="packed"
+
+            app:layout_constraintBottom_toTopOf="@+id/tvNameSinger"
+            app:layout_constraintLeft_toRightOf="@id/ivDownloaded"
+            app:layout_constraintTop_toTopOf="@id/ivDownloaded"/>
+
+        <TextView
+            android:id="@+id/tvNameSinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/loren_suppppppp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:layout_marginTop="6dp"
+
+            app:layout_constraintTop_toBottomOf="@id/tvNameSong"
+            app:layout_constraintLeft_toRightOf="@id/ivDownloaded"
+            app:layout_constraintBottom_toBottomOf="@id/ivDownloaded"/>
+
+        <ImageView
+            android:id="@+id/ivMenuDownload"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12sp"
+
+            android:src="@drawable/ic_dot_white"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

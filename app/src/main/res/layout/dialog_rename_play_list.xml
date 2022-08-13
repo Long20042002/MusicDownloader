@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_shape_of_dialog_add_play_list">
+
+    <TextView
+        android:id="@+id/tv_create_new_playlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name_playlist"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/editNamePlayListRename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_name_play_list"
+        android:layout_marginHorizontal="38dp"
+        android:layout_marginVertical="24dp"
+        android:hint="@string/enter_playlist_name"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textColorHint="#888888"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_create_new_playlist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textColor="#01DCC2"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+
+        app:layout_constraintRight_toLeftOf="@id/tvCancelED"
+        app:layout_constraintTop_toBottomOf="@id/editNamePlayListRename"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvCancelED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textColor="#BCBCBC"
+        android:textSize="12sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+
+        app:layout_constraintLeft_toRightOf="@id/tvDone"
+        app:layout_constraintTop_toBottomOf="@id/editNamePlayListRename"
+        app:layout_constraintRight_toRightOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

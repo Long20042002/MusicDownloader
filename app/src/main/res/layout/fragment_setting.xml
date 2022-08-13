@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050810"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivTopST"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="375:275"
+        android:src="@drawable/bg_top_setting"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvUpgrade"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:background="@drawable/custom_shape_button_upgrade"
+        android:layout_marginBottom="17dp"
+        android:text="@string/upgrade_now"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/ivTopST"/>
+
+    <TextView
+        android:id="@+id/tvEnjoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enjoy_the_best_music_experience"
+        android:layout_marginBottom="14dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvUpgrade"/>
+
+    <TextView
+        android:id="@+id/tvUTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrade_to_premium"
+        android:layout_marginBottom="14dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvEnjoy"/>
+
+    <TextView
+        android:id="@+id/tvRatingApp"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="17dp"
+        android:text="@string/rating_app"
+        android:paddingStart="16dp"
+        style="@style/button_screen_setting"
+
+        app:layout_constraintTop_toBottomOf="@id/ivTopST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:drawableStartCompat="@drawable/ic_rating" />
+
+    <TextView
+        android:id="@+id/tvFeedBack"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:text="@string/feedback"
+        android:paddingStart="16dp"
+        style="@style/button_screen_setting"
+
+        app:layout_constraintTop_toBottomOf="@id/tvRatingApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:drawableStartCompat="@drawable/ic_feed_back" />
+
+    <TextView
+        android:id="@+id/tvPrivacy"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:text="@string/privacy_terms"
+        android:paddingStart="16dp"
+        style="@style/button_screen_setting"
+
+        app:layout_constraintTop_toBottomOf="@id/tvFeedBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:drawableStartCompat="@drawable/ic_privacy" />
+
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:text="@string/share_with_friend"
+        android:paddingStart="16dp"
+        style="@style/button_screen_setting"
+
+        app:layout_constraintTop_toBottomOf="@id/tvPrivacy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:drawableStartCompat="@drawable/ic_share_setting" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

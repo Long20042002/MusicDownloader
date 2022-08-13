@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_shape_of_bottom_dialog">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivMusicDownloaded"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/image_item_genres" />
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/layout_favorite_music_dled"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="54dp"-->
+<!--        android:gravity="center"-->
+
+<!--        android:background="@drawable/ic_favorite_op"-->
+<!--        app:layout_constraintRight_toLeftOf="@id/ivMusicDownloaded"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/ivMusicDownloaded"-->
+<!--        app:layout_constraintTop_toTopOf="@id/ivMusicDownloaded">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivFavoriteDled"-->
+<!--            android:src="@drawable/ic_favorite"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/ivShareDownloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:src="@drawable/ic_share"
+
+        app:layout_constraintLeft_toRightOf="@id/ivMusicDownloaded"
+        app:layout_constraintBottom_toBottomOf="@id/ivMusicDownloaded"
+        app:layout_constraintTop_toTopOf="@id/ivMusicDownloaded"/>
+
+    <TextView
+        android:id="@+id/tvNameSongDownloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loren_suppppppp"
+        style="@style/text_large_style"
+        android:layout_marginTop="17dp"
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@id/ivMusicDownloaded"
+        app:layout_constraintLeft_toLeftOf="@id/ivMusicDownloaded"
+        app:layout_constraintRight_toRightOf="@id/ivMusicDownloaded"/>
+
+    <TextView
+        android:id="@+id/tvNameSingerDownloaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loren_suppppppp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:textColor="#909090"
+
+        app:layout_constraintTop_toBottomOf="@id/tvNameSongDownloaded"
+        app:layout_constraintLeft_toLeftOf="@id/tvNameSongDownloaded"
+        app:layout_constraintRight_toRightOf="@id/tvNameSongDownloaded"/>
+
+    <LinearLayout
+        android:id="@+id/layout_add_play_list_dl"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tvNameSingerDownloaded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:src="@drawable/ic_icon_playlist_acitve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="3dp"
+            android:layout_marginStart="13dp"/>
+
+        <TextView
+            android:text="@string/add_to_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_large_style"
+            android:layout_marginStart="11dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_remove_song_downloaded"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/layout_add_play_list_dl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:src="@drawable/ic_delete_pl"
+            android:paddingHorizontal="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"/>
+
+        <TextView
+            android:text="@string/remove_downloaded_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_large_style"
+            android:layout_marginStart="11dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_set_ring_tone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_shape_of_button"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/layout_remove_song_downloaded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:src="@drawable/ic_ringtone"
+            android:paddingHorizontal="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"/>
+
+        <TextView
+            android:text="@string/set_as_ringtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_large_style"
+            android:layout_marginStart="11dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

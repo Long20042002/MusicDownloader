@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.prox.music_download6_ms3.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailGenresFragment"
+            app:destination="@id/detailGenresFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailTopRatingFragment"
+            app:destination="@id/detailTopRatingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailTopLisFragment"
+            app:destination="@id/detailTopLisFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailTopDownFragment"
+            app:destination="@id/detailTopDownFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_musicFromGenres"
+            app:destination="@id/musicFromGenres" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailGenresFragment"
+        android:name="com.prox.music_download6_ms3.fragment.DetailGenresFragment"
+        android:label="DetailGenresFragment" >
+        <action
+            android:id="@+id/action_detailGenresFragment_to_musicFromGenres"
+            app:destination="@id/musicFromGenres" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailTopRatingFragment"
+        android:name="com.prox.music_download6_ms3.fragment.DetailTopRatingFragment"
+        android:label="DetailTopRatingFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailTopLisFragment"
+        android:name="com.prox.music_download6_ms3.fragment.DetailTopLisFragment"
+        android:label="DetailTopLisFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailTopDownFragment"
+        android:name="com.prox.music_download6_ms3.fragment.DetailTopDownFragment"
+        android:label="DetailTopDownFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.prox.music_download6_ms3.fragment.SearchFragment"
+        android:label="SearchFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/musicFromGenres"
+        android:name="com.prox.music_download6_ms3.fragment.MusicFromGenres"
+        android:label="MusicFromGenres" >
+         <argument
+            android:name="genres"
+            app:argType="com.prox.music_download6_ms3.model.Genres" />
+    </fragment>
+</navigation>

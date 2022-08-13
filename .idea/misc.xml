@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable-v24/custom_bg_tab_layout_indicator_active.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable-v24/ic_dot_white.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/bg_edit_name_play_list.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_bg_download_ed_ing.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_bg_search.xml" value="0.266" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_bg_tab_layout_indicator.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_checkbox.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shadow_of_play_top_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_button_upgrade.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_item_downloading.xml" value="0.286" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_bottom_dialog.xml" value="0.318" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_button.xml" value="0.318" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_button_play_all.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_dialog_add_play_list.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_item_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_item_top_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_of_select_region.xml" value="0.1885" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_1_rating.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_2_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_3_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_4_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_5_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/custom_shape_tl_of_top_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/download_item.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/home_item.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_add_play_list.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_back.xml" value="0.203" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_checkbox.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_checkbox_active.xml" value="0.2975" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_clear.xml" value="0.238" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_close.xml" value="0.266" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_cover_image_downloading.xml" value="0.286" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_dot.xml" value="0.21" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_favorite.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_favorite_op.xml" value="0.318" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_global.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_icon_download.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_icon_home.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_icon_playlist_acitve.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_icon_setting.xml" value="0.2965" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1885" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_next.xml" value="0.238" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_next_noti.xml" value="0.238" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_norepeat.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_pause.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_pause_douwnload.xml" value="0.2655" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_pause_downloading.xml" value="0.2655" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_pause_noti.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_play_top_rating.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_repeat.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_repeatone.xml" value="0.3415" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_resume_download.xml" value="0.2655" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_resume_downloading.xml" value="0.2655" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_shape_tv_item_trending.xml" value="0.21" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_share_setting.xml" value="0.318" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/ic_vector__1_.xml" value="0.2765" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/item_select_line.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/line_inselected.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/line_selected.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/line_unselected.xml" value="0.145" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/loading_img.xml" value="0.3275" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/playlist_item.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/setting_item.xml" value="0.101" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/drawable/shapetest.xml" value="0.2715" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/custom_shape_top_left_of_item_top_rating.xml" value="0.30470085470085473" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_add_music_to_pl.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_add_play_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_delete_music_pl.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_downloaded.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_downloading.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_menu_play_list.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_play_list.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_bottom_sheet.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/dialog_rename_play_list.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_detail_genres.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_detail_top_down.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_detail_top_lis.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_detail_top_rating.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_download.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_downloaded.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_downloading.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_music_favorite.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_music_from_genres.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_music_from_play_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_music_play.xml" value="0.264" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_playlist.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_search.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/fragment_setting.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_detail_genres.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_downloaded.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_downloading.xml" value="0.8800000000000001" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_genres.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_name_layout.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_play_list.xml" value="0.37135416666666665" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_top_download.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_top_listened.xml" value="0.264" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_top_rating.xml" value="0.6" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/item_top_trending.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/music_play_fragment.xml" value="0.264" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/layout/music_play_fragment_test.xml" value="0.35462962962962963" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3723958333333333" />
+        <entry key="..\:/ProjectProx/Music_Dowload6_Ms3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
